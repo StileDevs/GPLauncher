@@ -1,0 +1,14 @@
+{
+  "name": "gplauncher",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "website"
+  ],
+  "scripts": {
+    "dev": "bun --filter website dev",
+    "build": "bun --filter website build",
+    "generate": "bun --filter website generate",
+    "typecheck": "bun --filter website typecheck"
+  }
+}

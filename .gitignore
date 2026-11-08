@@ -1,0 +1,35 @@
+# global ignore
+node_modules/
+
+# mygo ignore
+/dist/
+/build/
+/.mygo/
+mygo_windows_*.syso
+
+
+# astro ignore
+# build output
+dist/
+
+# generated types
+website/.astro/
+.astro/
+
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
